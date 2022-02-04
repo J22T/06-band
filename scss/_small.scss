@@ -210,17 +210,13 @@ min-height: 10rem;
 
 
 
-
-                section.band div {
+                .band {
                 width: 100%;
-                height: 0;
-                padding-bottom: 55%;
-                /* 👆 image height / width * 100% */
+                padding-bottom: 0%;
                 position: relative;
 
-                section.band div img {
+                img.lazy {
                     width: 100%;
-                    height: auto;
                     position: absolute;
                 }
             }
