@@ -150,8 +150,8 @@ min-height: 10rem;
     .inner {
             .image {
                 float: right;
-                shape-outside: cirlce(50% at 50% 50%);
-                clip-path: cirlce(50% at 50% 50%);
+                shape-outside: circle(50% at 50% 50%);
+                clip-path: circle(50% at 50% 50%);
                 // THIS PART ISN'T WORKING FOR SOME REASON
                 margin: 1rem;
                 text-align: center;
@@ -167,7 +167,7 @@ min-height: 10rem;
                 .image2 {
                     float: right;
                     shape-outside: circle(100% at 100% 0%);
-                    clip-path: circle(100% at 100% 0%);
+                    clip-path: polygon(50% 0, 100% 100%, 0 100%);
                     // THIS PART ISN'T WORKING FOR SOME REASON
                     margin: 1rem;
                     text-align: center;
@@ -182,8 +182,8 @@ min-height: 10rem;
                 padding: 0 2vw;
                     .image3 {
                         float: right;
-                        shape-outside: polygon(0 0, 100% 0, 0 100%);
-                        clip-path: polygon(0 0, 100% 0, 0 100%);
+                        shape-outside: polygon(100% 0, 0 0, 100% 100%);
+                        clip-path: polygon(100% 0, 0 0, 100% 100%);
                         // THIS PART ISN'T WORKING FOR SOME REASON
                         margin: 1rem;
                         text-align: center;
@@ -198,8 +198,7 @@ min-height: 10rem;
                         padding: 0 2vw;
                         .image4 {
                             float: right;
-                            shape-outside: polygon(0 0, 100% 0%, 50% 100%);
-                            clip-path: polygon(0 0, 100% 0%, 50% 100%);
+                            clip-path: circle(100% at 100% 0%);
                             // THIS PART ISN'T WORKING FOR SOME REASON
                             margin: 1rem;
                             text-align: center;
