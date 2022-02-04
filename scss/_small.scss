@@ -210,13 +210,15 @@ min-height: 10rem;
 
 
 
-                .band {
+                .band div {
                 width: 100%;
-                padding-bottom: 0%;
+                height: 0;
+                padding-bottom: 68%;
                 position: relative;
 
                 img.lazy {
                     width: 100%;
+                    height: auto;
                     position: absolute;
                 }
             }
