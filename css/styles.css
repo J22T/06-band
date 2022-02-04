@@ -533,16 +533,16 @@ footer {
     padding-top: 2rem;
   }
   main .parent_container .container {
-    flex-basis: 25%;
+    flex-basis: 50%;
   }
   main .parent_container .container2 {
-    flex-basis: 25%;
+    flex-basis: 50%;
   }
   main .parent_container .container3 {
-    flex-basis: 25%;
+    flex-basis: 50%;
   }
   main .parent_container .container4 {
-    flex-basis: 25%;
+    flex-basis: 50%;
   }
 }
 /* end of media query */
@@ -601,16 +601,16 @@ footer {
     min-height: 10rem;
   }
   main .parent_container .container {
-    flex-basis: 20%;
+    flex-basis: 25%;
   }
   main .parent_container .container2 {
-    flex-basis: 20%;
+    flex-basis: 25%;
   }
   main .parent_container .container3 {
-    flex-basis: 20%;
+    flex-basis: 25%;
   }
   main .parent_container .container4 {
-    flex-basis: 20%;
+    flex-basis: 25%;
   }
 }
 /* end of media query */
