@@ -166,7 +166,7 @@ min-height: 10rem;
             padding: 0 2vw;
                 .image2 {
                     float: right;
-                    shape-outside: circle(100% at 100% 0%);
+                    shape-outside: polygon(50% 0, 100% 100%, 0 100%);
                     clip-path: polygon(50% 0, 100% 100%, 0 100%);
                     // THIS PART ISN'T WORKING FOR SOME REASON
                     margin: 1rem;

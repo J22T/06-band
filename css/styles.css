@@ -450,7 +450,7 @@ main .parent_container .container2 .inner2 {
 }
 main .parent_container .container2 .inner2 .image2 {
   float: right;
-  shape-outside: circle(100% at 100% 0%);
+  shape-outside: polygon(50% 0, 100% 100%, 0 100%);
   clip-path: polygon(50% 0, 100% 100%, 0 100%);
   margin: 1rem;
   text-align: center;
