@@ -485,15 +485,14 @@ main .parent_container .container4 .inner4 .image4 {
   margin: 1rem;
   text-align: center;
 }
-main .band {
+main section.band div {
   width: 100%;
   height: 0;
   padding-bottom: 55%;
   /* 👆 image height / width * 100% */
   position: relative;
-  margin: 0;
 }
-main .band .lazy {
+main section.band div section.band div img {
   width: 100%;
   height: auto;
   position: absolute;
