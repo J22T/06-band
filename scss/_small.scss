@@ -152,7 +152,6 @@ min-height: 10rem;
                 float: right;
                 shape-outside: circle(50% at 50% 50%);
                 clip-path: circle(50% at 50% 50%);
-                // THIS PART ISN'T WORKING FOR SOME REASON
                 margin: 1rem;
                 text-align: center;
              } // end image
@@ -168,7 +167,6 @@ min-height: 10rem;
                     float: right;
                     shape-outside: polygon(50% 0, 100% 100%, 0 100%);
                     clip-path: polygon(50% 0, 100% 100%, 0 100%);
-                    // THIS PART ISN'T WORKING FOR SOME REASON
                     margin: 1rem;
                     text-align: center;
                  } // end image
@@ -184,7 +182,6 @@ min-height: 10rem;
                         float: right;
                         shape-outside: polygon(100% 0, 0 0, 100% 100%);
                         clip-path: polygon(100% 0, 0 0, 100% 100%);
-                        // THIS PART ISN'T WORKING FOR SOME REASON
                         margin: 1rem;
                         text-align: center;
                      } // end image
@@ -199,7 +196,6 @@ min-height: 10rem;
                         .image4 {
                             float: right;
                             clip-path: circle(100% at 100% 0%);
-                            // THIS PART ISN'T WORKING FOR SOME REASON
                             margin: 1rem;
                             text-align: center;
                          } // end image
