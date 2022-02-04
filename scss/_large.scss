@@ -1,0 +1,76 @@
+header, main, footer {
+    max-width: 75rem;
+    margin: auto;
+}
+
+
+
+
+
+
+
+header {
+      height: 150px;
+    background-size: cover;
+    background-position: center bottom;
+    grid-template-columns: 51px auto auto;
+
+    h1 {
+        padding-left: 5.5rem;
+    }
+} // end header
+
+nav {
+ justify-self: end;
+    
+        button {
+            display: none;
+        }
+
+        ul, ul.open {
+            display: flex;
+            position: relative;
+            background-color: transparent;
+            border: none;
+            padding-right: 4rem;
+            padding-top: 5rem;
+            width: auto;
+        }
+
+        ul li {
+            border: none;
+        }
+
+        ul li a {
+            color: white;
+            border-radius: 5px;
+            padding: .5rem .5rem;
+            margin-left: 1rem;
+            transition: all .5s ease;
+            justify-self: end;
+        }
+    
+
+        ul li a:hover {
+            background-color: lighten($menuColor, 10%);
+        }
+    
+        ul li.active a {
+            color: $primaryColor;
+        }
+    } // end nav
+
+
+
+main {
+background-color: white;
+padding: 0 2%;
+min-height: 10rem;
+
+.parent_container .container  .inner {
+    flex-basis: 25%;
+} // end container
+
+
+} // end main
+
