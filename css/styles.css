@@ -496,6 +496,10 @@ main .band div img.lazy {
   position: absolute;
 }
 
+div#footer {
+  background-color: white;
+}
+
 footer {
   text-align: center;
   padding: 1rem 2%;
