@@ -431,7 +431,7 @@ main .parent_container {
   display: flex;
   flex-wrap: wrap;
 }
-main .parent_container .container .inner {
+main .parent_container .container {
   padding: 0 2vw;
 }
 main .parent_container .container .inner .image {
