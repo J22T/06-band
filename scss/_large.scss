@@ -69,9 +69,32 @@ min-height: 10rem;
 
 
 
-.parent_container .container  .inner {
-    flex-basis: 25%;
+
+
+
+
+
+
+
+
+
+.parent_container .container {
+    flex-basis: 20%;
 } // end container
+
+.parent_container .container2 {
+    flex-basis: 20%;
+} // end container
+
+.parent_container .container3 {
+    flex-basis: 20%;
+} // end container
+
+.parent_container .container4 {
+    flex-basis: 20%;
+} // end container
+
+
 
 
 } // end main

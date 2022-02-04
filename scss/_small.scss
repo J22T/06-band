@@ -148,6 +148,7 @@ min-height: 10rem;
 .container {
     padding: 0 2vw;
     .inner {
+        padding: 0 2vw;
             .image {
                 float: right;
                 shape-outside: circle(50% at 50% 50%);
@@ -192,7 +193,7 @@ min-height: 10rem;
                 display: flex;
                 flex-wrap: wrap;
                 .inner4 {
-                        padding: 0 2vw;
+                       padding: 0 2vw;
                         .image4 {
                             float: right;
                             clip-path: circle(100% at 100% 0%);
